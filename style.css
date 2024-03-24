@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url(/fonts/Poppins-Regular.ttf);
+}
+
+*{
+  margin: -0px;
+  padding: -0px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+.hero{
+  display: flex;
+  background: white;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.phone{
+  background: url(/Screenshot_2024-03-14-20-24-53-84_40deb401b9ffe8e1df2f1cc5ba480b12.jpg) no-repeat center;
+  width: 300px;
+  height: 609.7457627119px;
+  background-size: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+}
+.phone form{
+  margin-top: 210px;
+}
+
+.phone form input{
+  border-radius: 50%;
+  border: none;
+  width: 55px;
+  height: 55px;
+  margin: 3px;
+  background:  #333333;
+  color: white;
+  font-size: 20px;
+}
+.operator{
+  background:#ff9f0a !important;
+}
+.grey{
+  background: #a5a5a5 !important;
+  color: black !important;
+}
+.big{
+  width:122px !important;
+  border-radius:30px !important;
+}
+form .display input{
+  width: 250px;
+  border-radius:0px;
+  flex: 1;
+  text-align: right;
+  font-size: 30px;
+  outline: none;
+  background: transparent;
+}
